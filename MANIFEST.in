@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include daroxygen *.css
+recursive-include daroxygen *.csv
+recursive-include daroxygen *.html
+recursive-include daroxygen *.ico
+recursive-include daroxygen *.js
+recursive-include daroxygen *.json
+recursive-include daroxygen *.md
+recursive-include daroxygen *.png
+recursive-include daroxygen *.py
+recursive-include daroxygen *.svg
+recursive-include daroxygen *.txt
+recursive-exclude daroxygen *.pyc
