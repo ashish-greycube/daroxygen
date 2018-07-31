@@ -120,3 +120,11 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "daroxygen.event.get_events"
 # }
 
+fixtures = [
+    	{
+		"dt":"Custom Script",
+		"filters":[
+			["name", "in", ["Quotation-Client"]],
+		]
+	}
+]
